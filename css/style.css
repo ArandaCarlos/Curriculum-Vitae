@@ -492,6 +492,12 @@ div.menu-movil span {
   padding: 1em;
 }
 
+@media only screen and (max-width: 500px){
+   .contenedor{
+      margin: 0 !important;
+   }
+}
+
 .contenedor-info{
     -webkit-box-shadow: 0px 3px 88px 24px #ffd200;
     -moz-box-shadow: 0px 3px 88px 24px #ffd200;
