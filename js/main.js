@@ -136,6 +136,10 @@ window.onload = function() {
 	  }; 
 	}
 
+	$(".menu-movil").click(function(event){
+		$("nav").toggle("slow");
+	});
+
 };
 
 

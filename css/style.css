@@ -448,6 +448,13 @@ nav a:hover{
   color: #121212 !important;
 }
 
+@media only screen and (max-width: 600px) {
+  nav a{
+    display: inline-block;
+    width: 100%;
+  }
+}
+
 
 div.menu-movil {
     width: 60px;
@@ -455,6 +462,7 @@ div.menu-movil {
     float: right;
     text-align: right;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 div.menu-movil span {
@@ -490,6 +498,12 @@ div.menu-movil span {
   margin: 5em 3em 3em 3em;
   
   padding: 1em;
+}
+
+@media only screen and (max-width: 500px){
+  .contenedor{
+    margin:0 !important;
+  }
 }
 
 .contenedor-info{
@@ -541,6 +555,10 @@ img{
   img{
     width: 50%;
     max-width: 100%;
+  }
+
+  .contenedor-info{
+    padding: 0 15px;
   }
 }
 
@@ -613,6 +631,7 @@ h3{
     background: #ffdf00;
     color: black;
   }
+
 
 /**COLUMNAS**/
 
@@ -706,6 +725,10 @@ textarea {
   }
 }
 
+  .overflow{
+    height: auto;
+    word-wrap: break-word;
+  }
 /* WIDGECT */
 
   .social-widgect ul{
@@ -722,24 +745,8 @@ textarea {
    }
 
 
-@media only screen and (max-width: 600px) {
-  header{
-    display: none;
-  }
-}
 
 
-.item {   
-   opacity: 0
-  -webkit-transition: opacity 5s ease-in-out;
-  -moz-transition: opacity 5s ease-in-out;
-  -ms-transition: opacity 5s ease-in-out;
-  -o-transition: opacity 5s ease-in-out;
-  transition: opacity 5s ease-in-out;
-}
-.item.active{
-   opacity: 1
-}
 
 
 
