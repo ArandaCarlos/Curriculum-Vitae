@@ -537,6 +537,13 @@ img{
 .imagen{
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  img{
+    width: 50%;
+    max-width: 100%;
+  }
+}
+
 
 
 h1{
@@ -721,6 +728,18 @@ textarea {
   }
 }
 
+
+.item {   
+   opacity: 0
+  -webkit-transition: opacity 5s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  -ms-transition: opacity 5s ease-in-out;
+  -o-transition: opacity 5s ease-in-out;
+  transition: opacity 5s ease-in-out;
+}
+.item.active{
+   opacity: 1
+}
 
 
 

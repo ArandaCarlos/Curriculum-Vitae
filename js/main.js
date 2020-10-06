@@ -2,7 +2,7 @@
 
 window.onload = function() {
 
-	alert("Página en proceso");
+	
 
 	var conteiner = $(".conteiner");
 	var profile = $(".conteiner");
