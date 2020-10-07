@@ -2,13 +2,6 @@
 
 window.onload = function() {
 
-	const mediaQuery = window.matchMedia('(max-width: 500px)');
-		
-		// Check if the media query is true
-		if (mediaQuery.matches) {
-		  // Then trigger an alert
-		  activar();
-		};
 
 	var conteiner = $(".conteiner");
 	var profile = $(".conteiner");
