@@ -11,8 +11,6 @@ window.onload = function() {
 	var activo = profile;
 	var activo_id=$("#profile");
 
-	var activo_dark= false;
-
 	
 	resume.hide();
 	portfolio.hide();
@@ -139,6 +137,8 @@ window.onload = function() {
 		$("nav").toggle("slow");
 	});
 
+var activo_dark= true;
+	activar();
 };
 
 
